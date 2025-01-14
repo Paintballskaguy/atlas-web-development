@@ -1,0 +1,156 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0; 
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+
+  .nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  .nav li {
+    float: left;
+  }
+  
+  .nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .nav li a:hover {
+    background-color: #111;
+  }
+  
+
+  .title {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #e9d8a6;
+    color: #333;
+    border-bottom: 2px solid #e0c097;
+  }
+  
+  .title h1 {
+    font-size: 3em;
+    margin-bottom: 0.2em;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+  }
+  
+  .title h2 {
+    font-size: 1.5em;
+    font-style: italic;
+    color: #6a4c1d;
+  }
+  
+  .about {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .highlight {
+    color: #e63946;
+    font-weight: bold;
+  }
+  
+  .degree {
+    color: #0077b6;
+  }
+  
+  .OKschool {
+    color: #ff9f1c;
+  }
+  
+  .KSschool {
+    color: #e63946;
+  }
+  
+  .Why {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Roots {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .Hobbies {
+    background-color: #f9f1e9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .Pets {
+    background-color: #f0efeb;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Pets ul {
+    list-style-type: "🐾 ";
+  }
+  
+  .end {
+    font-style: italic;
+    color: #555;
+    margin-top: 20px;
+  }
+  
+
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer a {
+    color: #f0efeb;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  footer h4 {
+    margin: 0.5em 0;
+  }
+  
+
+  a:hover {
+    text-decoration: underline;
+  }
+  
+
+  .title h1 {
+    animation: color-change 4s infinite alternate;
+  }
+  
+  @keyframes color-change {
+    from { color: #e63946; }
+    to { color: #0077b6; }
+  }

@@ -1,9 +1,10 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Baskerville', Baskerville, Baskerville Old Face, Garamond, Times New Roman, serif;
     margin: 0; 
     padding: 20px;
     background-color: #f4f4f4;
     color: #333;
+    font-size: large;
   }
 
   .nav ul {
@@ -16,6 +17,8 @@ body {
   
   .nav li {
     float: left;
+    display: flex;
+    align-items: center;
   }
   
   .nav li a {
@@ -34,7 +37,7 @@ body {
   .title {
     text-align: center;
     padding: 20px 0;
-    background-color: #e9d8a6;
+    background-color: #b81414;
     color: #333;
     border-bottom: 2px solid #e0c097;
   }
@@ -42,13 +45,13 @@ body {
   .title h1 {
     font-size: 3em;
     margin-bottom: 0.2em;
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-family: 'Baskerville', Baskerville, Baskerville Old Face, Garamond, Times New Roman, serif;
   }
   
   .title h2 {
     font-size: 1.5em;
     font-style: italic;
-    color: #6a4c1d;
+    color: #65b41b;;
   }
   
   .about {
@@ -67,15 +70,27 @@ body {
   .degree {
     color: #0077b6;
   }
-  
+
   .OKschool {
-    color: #ff9f1c;
+    animation: color-change 2s infinite alternate-reverse;
+    animation-name: OSU;
   }
   
+  @keyframes OSU {
+    from { color: #fe5c00; }
+    to { color: #000000; }   
+  }
+
   .KSschool {
-    color: #e63946;
+    animation: color-change 2s infinite alternate-reverse;
+    animation-name: HINU;
   }
   
+  @keyframes HINU {
+    from { color: #9D00FF; }
+    to { color: #FFD700; }
+  }
+
   .Why {
     background-color: #fff;
     padding: 20px;
@@ -117,6 +132,48 @@ body {
     font-style: italic;
     color: #555;
     margin-top: 20px;
+    text-align: center;
+  }
+
+  .Photo {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Photo h2 {
+    color: #e63946;
+    margin-bottom: 20px 0;
+    position: flex;
+    text-align: center;
+  }
+  
+  .Photo figure {
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  .Photo figcaption {
+    font-style: italic;
+    color: #555;
+  }
+  
+  .Photo img, 
+  .Photo video {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .Photo img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
   }
   
 
@@ -151,5 +208,6 @@ body {
   }
   
   @keyframes color-change {
-    from { color: #e63946; }
+    from { color: #65b41b; }
     to { color: #0077b6; }
+

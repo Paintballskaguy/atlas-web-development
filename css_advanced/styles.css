@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('./font/SourceSansPro-Black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+body{
+    font-family: 'SourceSanPro', sans-serif;
+    background-color: #071629;
+    color: white;
+    text-align: center;
+}
+
+
+header {
+
+    background-image: url("images/pic_1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.
+
+header section{
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+
+
+
+.titlediv h1 {
+font-size: 120px;
+}
+
+.imgpro {
+    display: flex;
+    justify-content: space-evenly;
+
+}

@@ -10,6 +10,9 @@ body{
     background-color: #071629;
     color: white;
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 
@@ -18,21 +21,39 @@ header {
     background-image: url("images/pic_1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    display:flex;
+    flex-direction: column;
 }
 
-.
+.headlogo{
+  position: absolute;
+  margin: 20px;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row-reverse;;
+    list-style: none;
+    gap: 20px;
+}
+
+.titlediv {
+
+}
 
 header section{
-display: flex;
-justify-content: center;
-flex-direction: column;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content:space-between;
 }
 
 
 
 
 .titlediv h1 {
-font-size: 120px;
+    font-size: 120px;
+    justify-content: center;
 }
 
 .imgpro {

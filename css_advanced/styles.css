@@ -1,9 +1,18 @@
+:root {
+    --primary-color: #071629;
+    --secondary-color: #C271FF;
+    --text-color: #FFFFFF;
+    --background-color: #071629;
+
+}
+
 @font-face {
     font-family: 'SourceSansPro';
     src: url('./font/SourceSansPro-Black.otf') format('opentype');
     font-weight: 900;
     font-style: normal;
 }
+
 
 body{
     font-family: 'SourceSanPro', sans-serif;
@@ -14,6 +23,11 @@ body{
     flex-wrap: wrap;
     flex-direction: column;
     margin:auto;
+}
+
+strong {
+    color: var(--secondary-color);
+    font-weight: 800;
 }
 
 .wrapper {
@@ -29,14 +43,11 @@ header {
     background-image: url("images/pic_1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    
-
-   
 }
 
 .headlogo{
-
-  margin: 20px;
+    display: flex;
+    margin: 20px;
 }
 
 header nav {
@@ -44,11 +55,25 @@ header nav {
     flex-direction: row-reverse;;
     list-style: none;
     gap: 20px;
-    
 }
 
-.titlediv {
+header nav a {
+    color: inherit;
+    text-decoration: none;;
+}
 
+
+.titlediv h1 {
+    font-size: 120px;
+    justify-content: center;
+    padding-bottom: 0;
+}
+
+.titlediv p {
+    flex-direction: column;
+    font-size: 16px;
+    align-items: center;
+    font-weight: 700;
 }
 
 header section{
@@ -59,16 +84,27 @@ header section{
     max-width: 1100px;
 }
 
+.button {
+    background-color:var(--secondary-color);
+    color: var(--text-color);
+    font-weight: bold;
+    border-radius: 20px;
+    width: 162px;
+    height: 44px;
+    box-shadow: 0px 2px 20px #00000080;
+    font-size: 13px;
+    text-align: center;
 
+}
 
+.imgmenu h2 {
+    font-weight: 700;
 
-.titlediv h1 {
-    font-size: 120px;
-    justify-content: center;
 }
 
 .imgpro {
     display: flex;
     justify-content: space-evenly;
+    border-radius: 20px;
 
 }

@@ -27,7 +27,7 @@ body{
 
 strong {
     color: var(--secondary-color);
-    font-weight: 800;
+    font-weight: 700;
 }
 
 .wrapper {
@@ -55,6 +55,7 @@ header nav {
     flex-direction: row-reverse;;
     list-style: none;
     gap: 20px;
+    font-size: 12px;
 }
 
 header nav a {
@@ -67,7 +68,11 @@ header nav a {
     font-size: 120px;
     justify-content: center;
     padding-bottom: 0;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-top: 155px
 }
+
 
 .titlediv p {
     flex-direction: column;
@@ -82,6 +87,13 @@ header section{
     flex-direction: column;
     justify-content:space-between;
     max-width: 1100px;
+    border-color: transparent;
+}
+
+.titlediv buttons {
+    margin-block-start:0px;
+    margin-block-end: 0px;
+    margin:0;
 }
 
 .button {
@@ -97,14 +109,71 @@ header section{
 
 }
 
+.sub {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    width: 100%;
+    gap: 50px;
+    font-size: 16px;
+    margin-block-end: 150px;
+    margin-block-end: 30px;
+}
+
+.smile {
+    display: flex;
+}
+
 .imgmenu h2 {
-    font-weight: 700;
+    font-weight: 300;
+    justify-content: space-evenly;
+    margin-top: 10% ;
+}
+
+.imgmenu {
+    width: 100%;
+    margin-block-start: 0px;;
+}
+
+.propics {
+    max-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    margin-block-end: 30%;
 
 }
 
+.propics img {
+    border-radius: 100px;
+    flex-direction: column-reverse;
+}
+
+
 .imgpro {
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
-    border-radius: 20px;
+}
+
+.redshirt {
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: auto;
+    height: 392px;
+}
+
+.redshirt img {
+    border-radius: 100%;
+    width: 160px;
+    height: 160px;
+    justify-content: space-around;
 
 }

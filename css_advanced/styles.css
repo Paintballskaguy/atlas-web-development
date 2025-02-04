@@ -23,6 +23,8 @@ body{
     flex-wrap: wrap;
     flex-direction: column;
     margin:auto;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
 }
 
 strong {
@@ -153,22 +155,40 @@ header section{
     border-radius: 100px;
     flex-direction: column-reverse;
 }
+.propics p {
+    margin-block-start:0px;
+    margin-block-end: 0px;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: italic;
+}
 
 
 .imgpro {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    margin-block-end: 0px;
+    margin-block-start: 50px;
+    align-items: center;
 }
 
 .redshirt {
     background-color: var(--secondary-color);
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    width: 1440px;
+    justify-content: center;
     height: 392px;
     align-items: center;
+}
+
+.redshirt img {
+    border-radius: 100%;
+    width: 160px;
+    height: 160px;
+    justify-content: space-around;
+    margin-right: 50px;
+
 }
 
 .quote {
@@ -179,20 +199,59 @@ header section{
     align-items: flex-start;
     margin:0;
     text-align: left;
+    margin-block-start:0px;
+    margin-block-end: 0px;
+    padding: 0px;
 }
 
 .quote blockquote {
     display: flex;
     margin:0;
+    margin-block-start:0px;
+    margin-block-end: 0px;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.quoteauth {
+    margin-block-start:50px;
+    margin-block-end: 0px;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.vidcard {
+    width: 1228px;
+    height: 450px;
+    display: flex;
+    background-color: var(--background-color);
+    margin-block-start:50px;
+    margin-block-end: 0px;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.vidcard h1 {
+    font-size: 32px;
+    align-items: center;
+    font-weight: 300;
+    
+}
+
+.vidcard2 {
+    display: flex;
 }
 
 
-
-
-.redshirt img {
-    border-radius: 100%;
-    width: 160px;
-    height: 160px;
+.tinyimg {
+    max-height: 150px;
+    display: flex;
+    flex-direction: column;
     justify-content: space-around;
-
+    text-align: center;
+    border-radius: 100px;
+    width: 30px;
+    height: 30px;
+    margin-block-end: 30%;
 }

@@ -389,4 +389,10 @@ header section{
     height: auto;
 }
 
-footer
+footer {
+    background-color: #071629;
+}
+
+.footerlinks {
+    background-color: #071629;
+}

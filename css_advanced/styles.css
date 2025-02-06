@@ -36,7 +36,6 @@ strong {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #071629;
 }
 
 header {
@@ -44,6 +43,7 @@ header {
     background-image: url("images/pic_1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    order: -1;
 }
 
 .headlogo{
@@ -389,3 +389,4 @@ header section{
     height: auto;
 }
 
+footer

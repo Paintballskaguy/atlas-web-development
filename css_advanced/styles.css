@@ -36,6 +36,7 @@ strong {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #071629;
 }
 
 header {
@@ -345,3 +346,46 @@ header section{
     background-color: #071629;
     
 }
+
+.black {
+    background-color: var(--background-color);
+}
+
+.FAQ {
+    width: 100%;
+    text-align: center;
+}
+
+.FAQ h1 {
+    color: #071629;
+    font-size: 60px;
+    font-style: normal;
+}
+.faqdiv {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.faqtext {
+    color: #071629;
+    font-style: italic;
+    font-size: 14px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.faqtext h2 {
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    
+}
+
+.faq1 {
+    max-width: 350px;
+    height: auto;
+}
+
